@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		3E2AC94C243E7E7D00BB0B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94A243E7E7D00BB0B3A /* Main.storyboard */; };
 		3E2AC94E243E7E8200BB0B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */; };
 		3E2AC951243E7E8200BB0B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */; };
+		3E8280E1243E8C3E00D39F79 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */; };
+		ACA0AEF6CC851FC2B0293C96 /* Pods_KVOLab_PursuitBankingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115EE3457B47A4EF9A6A8595 /* Pods_KVOLab_PursuitBankingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115EE3457B47A4EF9A6A8595 /* Pods_KVOLab_PursuitBankingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVOLab_PursuitBankingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D21461EEF8C22E77BC046E /* Pods-KVOLab-PursuitBankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOLab-PursuitBankingApp.debug.xcconfig"; path = "Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3E2AC941243E7E7D00BB0B3A /* KVOLab-PursuitBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVOLab-PursuitBankingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2AC944243E7E7D00BB0B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E2AC946243E7E7D00BB0B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E2AC950243E7E8200BB0B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2AC952243E7E8200BB0B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		81B0B3B12F00F7C0E628A169 /* Pods-KVOLab-PursuitBankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOLab-PursuitBankingApp.release.xcconfig"; path = "Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA0AEF6CC851FC2B0293C96 /* Pods_KVOLab_PursuitBankingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3E2AC943243E7E7D00BB0B3A /* KVOLab-PursuitBankingApp */,
 				3E2AC942243E7E7D00BB0B3A /* Products */,
+				AD2C6A6F888F6D0886BA555A /* Pods */,
+				94E00074C4CAA9304758A09F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,65 @@
 		3E2AC943243E7E7D00BB0B3A /* KVOLab-PursuitBankingApp */ = {
 			isa = PBXGroup;
 			children = (
-				3E2AC944243E7E7D00BB0B3A /* AppDelegate.swift */,
-				3E2AC946243E7E7D00BB0B3A /* SceneDelegate.swift */,
-				3E2AC948243E7E7D00BB0B3A /* ViewController.swift */,
-				3E2AC94A243E7E7D00BB0B3A /* Main.storyboard */,
-				3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */,
-				3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */,
+				3E8280DF243E8B7700D39F79 /* FirebaseServices */,
+				3E2AC95C243E85B700BB0B3A /* Views */,
+				3E2AC95A243E858300BB0B3A /* Controllers */,
+				3E2AC95B243E859900BB0B3A /* Supporting Files */,
 				3E2AC952243E7E8200BB0B3A /* Info.plist */,
 			);
 			path = "KVOLab-PursuitBankingApp";
+			sourceTree = "<group>";
+		};
+		3E2AC95A243E858300BB0B3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AC948243E7E7D00BB0B3A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E2AC95B243E859900BB0B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AC946243E7E7D00BB0B3A /* SceneDelegate.swift */,
+				3E2AC944243E7E7D00BB0B3A /* AppDelegate.swift */,
+				3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2AC95C243E85B700BB0B3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AC94A243E7E7D00BB0B3A /* Main.storyboard */,
+				3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E8280DF243E8B7700D39F79 /* FirebaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */,
+			);
+			path = FirebaseServices;
+			sourceTree = "<group>";
+		};
+		94E00074C4CAA9304758A09F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115EE3457B47A4EF9A6A8595 /* Pods_KVOLab_PursuitBankingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD2C6A6F888F6D0886BA555A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D21461EEF8C22E77BC046E /* Pods-KVOLab-PursuitBankingApp.debug.xcconfig */,
+				81B0B3B12F00F7C0E628A169 /* Pods-KVOLab-PursuitBankingApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E2AC955243E7E8200BB0B3A /* Build configuration list for PBXNativeTarget "KVOLab-PursuitBankingApp" */;
 			buildPhases = (
+				3B7BC46FF018B7484FC38D95 /* [CP] Check Pods Manifest.lock */,
 				3E2AC93D243E7E7D00BB0B3A /* Sources */,
 				3E2AC93E243E7E7D00BB0B3A /* Frameworks */,
 				3E2AC93F243E7E7D00BB0B3A /* Resources */,
+				2F5301679273721153BC6643 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +194,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F5301679273721153BC6643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7BC46FF018B7484FC38D95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVOLab-PursuitBankingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E2AC93D243E7E7D00BB0B3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +244,7 @@
 				3E2AC949243E7E7D00BB0B3A /* ViewController.swift in Sources */,
 				3E2AC945243E7E7D00BB0B3A /* AppDelegate.swift in Sources */,
 				3E2AC947243E7E7D00BB0B3A /* SceneDelegate.swift in Sources */,
+				3E8280E1243E8C3E00D39F79 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		3E2AC956243E7E8200BB0B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D21461EEF8C22E77BC046E /* Pods-KVOLab-PursuitBankingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +405,7 @@
 		};
 		3E2AC957243E7E8200BB0B3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B0B3B12F00F7C0E628A169 /* Pods-KVOLab-PursuitBankingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

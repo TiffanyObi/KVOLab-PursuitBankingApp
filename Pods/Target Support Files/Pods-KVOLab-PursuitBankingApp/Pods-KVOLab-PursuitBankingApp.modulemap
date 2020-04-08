@@ -1,0 +1,6 @@
+framework module Pods_KVOLab_PursuitBankingApp {
+  umbrella header "Pods-KVOLab-PursuitBankingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
