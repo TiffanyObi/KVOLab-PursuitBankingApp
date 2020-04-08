@@ -14,6 +14,7 @@
 		3E2AC94E243E7E8200BB0B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */; };
 		3E2AC951243E7E8200BB0B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */; };
 		3E8280E1243E8C3E00D39F79 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */; };
+		3E8280E3243E921E00D39F79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E8280E2243E921E00D39F79 /* GoogleService-Info.plist */; };
 		ACA0AEF6CC851FC2B0293C96 /* Pods_KVOLab_PursuitBankingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115EE3457B47A4EF9A6A8595 /* Pods_KVOLab_PursuitBankingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3E2AC950243E7E8200BB0B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2AC952243E7E8200BB0B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		3E8280E2243E921E00D39F79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81B0B3B12F00F7C0E628A169 /* Pods-KVOLab-PursuitBankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOLab-PursuitBankingApp.release.xcconfig"; path = "Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				3E2AC95A243E858300BB0B3A /* Controllers */,
 				3E2AC95B243E859900BB0B3A /* Supporting Files */,
 				3E2AC952243E7E8200BB0B3A /* Info.plist */,
+				3E8280E2243E921E00D39F79 /* GoogleService-Info.plist */,
 			);
 			path = "KVOLab-PursuitBankingApp";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E2AC951243E7E8200BB0B3A /* LaunchScreen.storyboard in Resources */,
+				3E8280E3243E921E00D39F79 /* GoogleService-Info.plist in Resources */,
 				3E2AC94E243E7E8200BB0B3A /* Assets.xcassets in Resources */,
 				3E2AC94C243E7E7D00BB0B3A /* Main.storyboard in Resources */,
 			);
