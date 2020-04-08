@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>937536359639-nc20c42h2u3a0b43fan2aoqgmhi8tq8k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.937536359639-nc20c42h2u3a0b43fan2aoqgmhi8tq8k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmKxJb957sG_HgZvthcxbwdZ_S_gMdHCI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>937536359639</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.tiffanyobi.KVOLab-PursuitBankingApp</string>
+	<key>PROJECT_ID</key>
+	<string>pursuitbankingapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pursuitbankingapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:937536359639:ios:5d531e16b7f3adba5d7492</string>
+	<key>DATABASE_URL</key>
+	<string>https://pursuitbankingapp.firebaseio.com</string>
+</dict>
+</plist>
