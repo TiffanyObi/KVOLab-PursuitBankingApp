@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		3E2AC945243E7E7D00BB0B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AC944243E7E7D00BB0B3A /* AppDelegate.swift */; };
 		3E2AC947243E7E7D00BB0B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AC946243E7E7D00BB0B3A /* SceneDelegate.swift */; };
-		3E2AC949243E7E7D00BB0B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AC948243E7E7D00BB0B3A /* ViewController.swift */; };
+		3E2AC949243E7E7D00BB0B3A /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AC948243E7E7D00BB0B3A /* CreateContactViewController.swift */; };
 		3E2AC94C243E7E7D00BB0B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94A243E7E7D00BB0B3A /* Main.storyboard */; };
 		3E2AC94E243E7E8200BB0B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */; };
 		3E2AC951243E7E8200BB0B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */; };
 		3E8280E1243E8C3E00D39F79 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */; };
 		3E8280E3243E921E00D39F79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E8280E2243E921E00D39F79 /* GoogleService-Info.plist */; };
+		3E8280E5243E931400D39F79 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280E4243E931400D39F79 /* DatabaseService.swift */; };
+		3E8280E7243E9A0F00D39F79 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8280E6243E9A0F00D39F79 /* LoginView.storyboard */; };
+		3E8280E9243EA45700D39F79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280E8243EA45700D39F79 /* LoginViewController.swift */; };
+		3E8280EC243EACFA00D39F79 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280EB243EACFA00D39F79 /* UIViewController+Navigation.swift */; };
+		3E8280EE243EAD4500D39F79 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280ED243EAD4500D39F79 /* UIViewController+Alerts.swift */; };
+		3E8280F0243EB40D00D39F79 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8280EF243EB40D00D39F79 /* UserInformationViewController.swift */; };
+		3E8281512445709400D39F79 /* SendOrRequestAmountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8281502445709400D39F79 /* SendOrRequestAmountController.swift */; };
+		3E8281532445710700D39F79 /* ViewBalancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8281522445710700D39F79 /* ViewBalancesViewController.swift */; };
+		3E8281562445718900D39F79 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8281552445718900D39F79 /* Contact.swift */; };
+		3E828159244571C900D39F79 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E828158244571C900D39F79 /* AccountBalance.swift */; };
+		3E82815B24457B1300D39F79 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82815A24457B1300D39F79 /* EmptyView.swift */; };
 		ACA0AEF6CC851FC2B0293C96 /* Pods_KVOLab_PursuitBankingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115EE3457B47A4EF9A6A8595 /* Pods_KVOLab_PursuitBankingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,13 +35,24 @@
 		3E2AC941243E7E7D00BB0B3A /* KVOLab-PursuitBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVOLab-PursuitBankingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2AC944243E7E7D00BB0B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E2AC946243E7E7D00BB0B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E2AC948243E7E7D00BB0B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E2AC948243E7E7D00BB0B3A /* CreateContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactViewController.swift; sourceTree = "<group>"; };
 		3E2AC94B243E7E7D00BB0B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2AC94D243E7E8200BB0B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E2AC950243E7E8200BB0B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2AC952243E7E8200BB0B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		3E8280E2243E921E00D39F79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E8280E4243E931400D39F79 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		3E8280E6243E9A0F00D39F79 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		3E8280E8243EA45700D39F79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3E8280EB243EACFA00D39F79 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		3E8280ED243EAD4500D39F79 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		3E8280EF243EB40D00D39F79 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		3E8281502445709400D39F79 /* SendOrRequestAmountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendOrRequestAmountController.swift; sourceTree = "<group>"; };
+		3E8281522445710700D39F79 /* ViewBalancesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBalancesViewController.swift; sourceTree = "<group>"; };
+		3E8281552445718900D39F79 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3E828158244571C900D39F79 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		3E82815A24457B1300D39F79 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		81B0B3B12F00F7C0E628A169 /* Pods-KVOLab-PursuitBankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOLab-PursuitBankingApp.release.xcconfig"; path = "Target Support Files/Pods-KVOLab-PursuitBankingApp/Pods-KVOLab-PursuitBankingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +89,9 @@
 		3E2AC943243E7E7D00BB0B3A /* KVOLab-PursuitBankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				3E8281572445719100D39F79 /* Classes */,
+				3E8281542445712800D39F79 /* Models */,
+				3E8280EA243EACDA00D39F79 /* Extensions */,
 				3E8280DF243E8B7700D39F79 /* FirebaseServices */,
 				3E2AC95C243E85B700BB0B3A /* Views */,
 				3E2AC95A243E858300BB0B3A /* Controllers */,
@@ -80,7 +105,11 @@
 		3E2AC95A243E858300BB0B3A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E2AC948243E7E7D00BB0B3A /* ViewController.swift */,
+				3E8280E8243EA45700D39F79 /* LoginViewController.swift */,
+				3E2AC948243E7E7D00BB0B3A /* CreateContactViewController.swift */,
+				3E8280EF243EB40D00D39F79 /* UserInformationViewController.swift */,
+				3E8281502445709400D39F79 /* SendOrRequestAmountController.swift */,
+				3E8281522445710700D39F79 /* ViewBalancesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -100,6 +129,8 @@
 			children = (
 				3E2AC94A243E7E7D00BB0B3A /* Main.storyboard */,
 				3E2AC94F243E7E8200BB0B3A /* LaunchScreen.storyboard */,
+				3E8280E6243E9A0F00D39F79 /* LoginView.storyboard */,
+				3E82815A24457B1300D39F79 /* EmptyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,8 +139,34 @@
 			isa = PBXGroup;
 			children = (
 				3E8280E0243E8C3E00D39F79 /* AuthenticationService.swift */,
+				3E8280E4243E931400D39F79 /* DatabaseService.swift */,
 			);
 			path = FirebaseServices;
+			sourceTree = "<group>";
+		};
+		3E8280EA243EACDA00D39F79 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E8280EB243EACFA00D39F79 /* UIViewController+Navigation.swift */,
+				3E8280ED243EAD4500D39F79 /* UIViewController+Alerts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E8281542445712800D39F79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E8281552445718900D39F79 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E8281572445719100D39F79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E828158244571C900D39F79 /* AccountBalance.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		94E00074C4CAA9304758A09F /* Frameworks */ = {
@@ -193,6 +250,7 @@
 				3E8280E3243E921E00D39F79 /* GoogleService-Info.plist in Resources */,
 				3E2AC94E243E7E8200BB0B3A /* Assets.xcassets in Resources */,
 				3E2AC94C243E7E7D00BB0B3A /* Main.storyboard in Resources */,
+				3E8280E7243E9A0F00D39F79 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +303,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2AC949243E7E7D00BB0B3A /* ViewController.swift in Sources */,
+				3E8281562445718900D39F79 /* Contact.swift in Sources */,
+				3E8280E9243EA45700D39F79 /* LoginViewController.swift in Sources */,
+				3E8280EC243EACFA00D39F79 /* UIViewController+Navigation.swift in Sources */,
+				3E2AC949243E7E7D00BB0B3A /* CreateContactViewController.swift in Sources */,
+				3E8280EE243EAD4500D39F79 /* UIViewController+Alerts.swift in Sources */,
+				3E8280E5243E931400D39F79 /* DatabaseService.swift in Sources */,
+				3E828159244571C900D39F79 /* AccountBalance.swift in Sources */,
 				3E2AC945243E7E7D00BB0B3A /* AppDelegate.swift in Sources */,
+				3E8281512445709400D39F79 /* SendOrRequestAmountController.swift in Sources */,
+				3E8281532445710700D39F79 /* ViewBalancesViewController.swift in Sources */,
 				3E2AC947243E7E7D00BB0B3A /* SceneDelegate.swift in Sources */,
+				3E8280F0243EB40D00D39F79 /* UserInformationViewController.swift in Sources */,
+				3E82815B24457B1300D39F79 /* EmptyView.swift in Sources */,
 				3E8280E1243E8C3E00D39F79 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
