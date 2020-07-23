@@ -8,9 +8,9 @@
 
 import Foundation
 
-@objc class AccountBalance: NSObject {
-    @objc dynamic var balance: Double
-     override init() {
-        balance = 0.0
-    }
-}
+//@objc class AccountBalance: NSObject {
+//    @objc dynamic var balance: Double
+//     override init() {
+//        balance = 0.0
+//    }
+//}

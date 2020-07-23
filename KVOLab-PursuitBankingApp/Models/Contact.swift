@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Contact {
+struct Contact {
     let name: String
     let number: String
-    let accountBalance: Double
+    var accountBalance: Double
     let contactID: String
    
     
@@ -27,10 +27,21 @@ class Contact {
         self.name = dictionary["name"] as? String ?? "no name"
         self.number = dictionary["number"] as? String ?? "no number"
         self.accountBalance = dictionary["accountBalance"] as? Double
-        ?? 0.0
+            ?? 0.0
         self.contactID = dictionary["contactID"] as? String ?? ""
     }
 
     
 }
 
+struct Transactions {
+    let contactName:String
+    let transaction:String
+    
+    
+    init(_ dictionary:[String:Any]) {
+        self.contactName = dictionary["contactName"] as? String ?? "no contact name"
+        
+        self.transaction = dictionary["transaction"] as? String ?? "no transactions"
+    }
+}

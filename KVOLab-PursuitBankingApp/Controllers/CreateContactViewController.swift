@@ -41,8 +41,7 @@ class CreateContactViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         guard let user = Auth.auth().currentUser else { return }
-        print(user.email ?? "no email")
-            
+       
             listener = Firestore.firestore().collection(DatabaseService.users).document(user.uid).collection(DatabaseService.contacts).addSnapshotListener({ [weak self](snapshot, error) in
                 if let error = error {
                     DispatchQueue.main.async {
@@ -78,8 +77,7 @@ class CreateContactViewController: UIViewController {
     }
     
     @IBAction func saveButtonPressed(_ sender: UIButton) {
-        let accountBalance = AccountBalance().balance
-        let newContact = Contact(name: contactNameTextfield.text ?? "no name", number: contactPhoneNumberTextfield.text ?? "555-5555", accountBalance: accountBalance, contactID: UUID().uuidString)
+        let newContact = Contact(name: contactNameTextfield.text ?? "no name", number: contactPhoneNumberTextfield.text ?? "555-5555", accountBalance:0.0, contactID: UUID().uuidString)
         contacts.append(newContact)
 //        newContact.accountBalance
         dataBase.addContactForUser(contact: newContact) { [weak self](result) in
@@ -144,9 +142,14 @@ extension CreateContactViewController: UITableViewDataSource, UITableViewDelegat
         
         let contact = contacts[indexPath.row]
         
+        cell.textLabel?.font = UIFont(name: "Didot", size: 30)
         cell.textLabel?.text = contact.name
-        cell.detailTextLabel?.text = "\(contact.accountBalance)"
+        
         return cell
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+        
     }
     
     
